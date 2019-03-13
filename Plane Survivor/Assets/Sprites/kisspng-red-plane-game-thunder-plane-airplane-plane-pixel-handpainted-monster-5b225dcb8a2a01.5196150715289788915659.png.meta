@@ -1,0 +1,1223 @@
+fileFormatVersion: 2
+guid: 02b48ff8e3f171445b4cdd037bf30357
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_0
+    21300002: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_1
+    21300004: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_2
+    21300006: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_3
+    21300008: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_4
+    21300010: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_5
+    21300012: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_6
+    21300014: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_7
+    21300016: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_8
+    21300018: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_9
+    21300020: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_10
+    21300022: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_11
+    21300024: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_12
+    21300026: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_13
+    21300028: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_14
+    21300030: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_15
+    21300032: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_16
+    21300034: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_17
+    21300036: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_18
+    21300038: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_19
+    21300040: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_20
+    21300042: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_21
+    21300044: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_22
+    21300046: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_23
+    21300048: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_24
+    21300050: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_25
+    21300052: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_26
+    21300054: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_27
+    21300056: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_28
+    21300058: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_29
+    21300060: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_30
+    21300062: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_31
+    21300064: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_32
+    21300066: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_33
+    21300068: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_34
+    21300070: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_35
+    21300072: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_36
+    21300074: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_37
+    21300076: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_38
+    21300078: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_39
+    21300080: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_40
+    21300082: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_41
+    21300084: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_42
+    21300086: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_43
+    21300088: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_44
+    21300090: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_45
+    21300092: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_46
+    21300094: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_47
+    21300096: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_48
+    21300098: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_49
+    21300100: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_50
+    21300102: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_51
+    21300104: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_52
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_0
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 877
+        width: 148
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5215c6a58ab37449ae02f37b9df5e3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_1
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 912
+        width: 59
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2135c660634324b4e95c4540c3537684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_2
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 594
+        width: 489
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a60efcfde19a99499dc5a3af940aad5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 641
+        width: 453
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d65b7889861b17488d9c80bdbd83d54
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_4
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 578
+        width: 188
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9ea039f9b79a147bba25f1cedd060a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_5
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 563
+        width: 130
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df752d5e58acf754ea11a76f44edff89
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_6
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 367
+        width: 17
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55484a3198db3c4d8fb190e81e08a6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_7
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 460
+        width: 76
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdcd0ef1d4ba1b94e88595d3f949c0ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_8
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 465
+        width: 72
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5b030382d45b84f9e69cefed32ad67
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_9
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 464
+        width: 70
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e5125a7137380488289afd7874f7ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_10
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 454
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3950f99123a3b4682207f824d160f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_11
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 459
+        width: 53
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d109fb97a5719e64aad3ca0a22d52c7b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_12
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 453
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17dddd191598de4b854342d13fc954b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_13
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 441
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d1b8e294530cd41a68aa7add353d56
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_14
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 441
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d867f67d43cf414d884724a0b9aec0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_15
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 468
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3664a6f4b453742b0587e9154124a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_16
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 460
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e69ea24d065204c99949cbf3f61d27
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_17
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 452
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777fcd61cfd1e994fa0dd4e67467c6f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_18
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 366
+        width: 76
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76da113978dc834b8baee1c3780f6be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 370
+        width: 72
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb750d9d61c8e14e83d45ea5f9a11e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_20
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 369
+        width: 70
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67598fdec7bc4ee41b744cc1aefc885d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_21
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 359
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2561829dff4d9a84399418e25eaad860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_22
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 364
+        width: 53
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7f59d6991f51e498e957414be8c211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_23
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 359
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8f06b5a7400104d8cd4f18afde81d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_24
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 346
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7152f69c9e16940a3b78de84868544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_25
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 346
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8e17d10ccf520409b29a3b8f92e204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_26
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 374
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5d67a7fc46ab74eb9eafd5aaae8023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_27
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 365
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f2c9d2c0ff14a4b93ebaec8e767feb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_28
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 357
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b367ad277c464694888fba75d9c2de3c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_29
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 206
+        width: 17
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290e4dfc3be97ff4ca66fcdf07a6aa22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_30
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 271
+        width: 68
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1e79e7b4412d045b53ae41248d0970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_31
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 266
+        width: 127
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf938adf7d014949b5775d58c743fdb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_32
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 236
+        width: 81
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483ee9b434988ec4eada8eb1ad15170a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_33
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 234
+        width: 236
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47323213b3c45f84184ff586f8cec973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_34
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 265
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92fcc3d5864f7094db37fd4cd553cea4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_35
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 258
+        width: 88
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78200207cb2ca3843877daa51bbe335a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_36
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 274
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23e9e7cd25584b4eb4e0e9d9ff603d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_37
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 56
+        width: 17
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f864331c9060b6d4d9aad887d83ad26c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_38
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 154
+        width: 68
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92553fe7cf0092748b6f6ba6bc0557fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_39
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 148
+        width: 127
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ecee76f2160044a8ce0c5c566f078a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_40
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 118
+        width: 81
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9ba42aeeefa0a4581adc8e78dceafe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_41
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 117
+        width: 236
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d192aa53ae19b354abf71d634d11ca3e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_42
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 148
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530bed56c7bbd0548bcd393ade55ac8e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_43
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 140
+        width: 88
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c448822f85146af4b882c4837b4d5326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_44
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 156
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe486076de159f4eb68c766d724e828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_45
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 69
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ad4b4069ae23c41885c563d06cf120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_46
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 71
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cef21a9eea4f5b44a588b631ddaedfa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_47
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 58
+        width: 106
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe67ca1ec665f04090b315f23748b38
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_48
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 65
+        width: 41
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd38fd6016e5e7a47a0ac704f733f149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_49
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 68
+        width: 47
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a788fdaba84e68b4da580c6339dc164f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_50
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 66
+        width: 51
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1a06d063870d945a6ae35c1825154b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_51
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 60
+        width: 84
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c8905c99b46054599e116a6dbc27cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-red-plane-game-thunder-plane-airplane-plane-pixel-handpainted-monster-5b225dcb8a2a01.5196150715289788915659_52
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 60
+        width: 84
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f050a2ddf1f2b4d9868af2b965e4f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a2f35a81d2a438e408e695fb4782cfbc
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
