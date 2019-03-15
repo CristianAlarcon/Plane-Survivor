@@ -36,10 +36,10 @@ public class Player : MonoBehaviour {
 
     private void FlipSprite()
     {
-        bool hihaMovimentHoritzontal = Mathf.Abs(myRigidBody.velocity.x) > Mathf.Epsilon;
+        bool hihaMovimentHoritzontal = Mathf.Abs(myRigidBody.velocity.x) > Mathf.Epsilon; //epsilon és el float més petit, perquè si comparem amb 0 pot donar error
         if (hihaMovimentHoritzontal)
         {
-            transform.localScale = new Vector2(Mathf.Sign(myRigidBody.velocity.x) * 1.25f, 1.25f);
+            transform.localScale = new Vector2(Mathf.Sign(myRigidBody.velocity.x) * 1.25f, 1.25f); //1.25 perquè és l'escala del nostre personatge, el sign ens indica si esquerra o dreta
         }
     }
 }
