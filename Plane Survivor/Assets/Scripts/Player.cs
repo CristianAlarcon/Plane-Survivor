@@ -7,7 +7,8 @@ public class Player : MonoBehaviour {
     Rigidbody2D myRigidBody;
     Animator myAnimator;
     bool CanJump = false;
-    Collider2D myCollider;
+    CapsuleCollider2D myBodyCollider;
+    BoxCollider2D myFeet;
     [SerializeField] float moveSpeed = 10f;
     [SerializeField] float JumpForce = 5f;
     // Use this for initialization
@@ -15,8 +16,10 @@ public class Player : MonoBehaviour {
     {
         myRigidBody = GetComponent<Rigidbody2D>();
         myAnimator = GetComponent<Animator>();
-        myCollider = GetComponent<Collider2D>();
-	}
+        myBodyCollider = GetComponent<CapsuleCollider2D>();
+        myFeet = GetComponent<BoxCollider2D>();
+
+    }
 	
 	// Update is called once per frame
 	void Update ()
@@ -37,7 +40,7 @@ public class Player : MonoBehaviour {
 
     private void Jump()
     {
-        if (!myCollider.IsTouchingLayers(LayerMask.GetMask("Ground"))) { return; }
+        if (!myFeet.IsTouchingLayers(LayerMask.GetMask("Ground"))) { return; }
         if (Input.GetButtonDown("Jump"))
         {
             Vector2 JumpVelocity = new Vector2(0f, JumpForce);
