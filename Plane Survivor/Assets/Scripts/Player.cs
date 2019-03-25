@@ -7,10 +7,12 @@ public class Player : MonoBehaviour {
     Rigidbody2D myRigidBody;
     Animator myAnimator;
     bool CanJump = false;
+    bool isAlive = true;
     CapsuleCollider2D myBodyCollider;
     BoxCollider2D myFeet;
     [SerializeField] float moveSpeed = 10f;
     [SerializeField] float JumpForce = 5f;
+    [SerializeField] Vector2 mortalHit = new Vector2(10f,8f);
     // Use this for initialization
     void Start ()
     {
@@ -24,9 +26,11 @@ public class Player : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
+        if (!isAlive) { return; }
         Run();
         FlipSprite();
         Jump();
+        Die();
 	}
 
     private void Run()
@@ -46,6 +50,23 @@ public class Player : MonoBehaviour {
             Vector2 JumpVelocity = new Vector2(0f, JumpForce);
             myRigidBody.velocity = JumpVelocity;
         }
+    }
+
+    private void Die()
+    {
+        if (myBodyCollider.IsTouchingLayers(LayerMask.GetMask("Enemy", "Foreground", "Hazards")))
+        {
+            isAlive = false;
+            myAnimator.SetTrigger("Dying");
+            myRigidBody.velocity = mortalHit;
+            StartCoroutine(ErasePlayer());
+        }
+    }
+
+    IEnumerator ErasePlayer()
+    {
+        yield return new WaitForSeconds(2.5f);
+        Destroy(gameObject);
     }
 
     private void FlipSprite()
