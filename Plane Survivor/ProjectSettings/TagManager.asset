@@ -18,12 +18,12 @@ TagManager:
   - Ground
   - Player
   - Background
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Foreground
+  - Enemy
+  - Hazards
+  - Background1
+  - Background2
+  - Background3
   - 
   - 
   - 
@@ -48,6 +48,9 @@ TagManager:
     locked: 0
   - name: Actual Ground
     uniqueID: 1614419749
+    locked: 0
+  - name: Enemy
+    uniqueID: 2043200077
     locked: 0
   - name: Player
     uniqueID: 3988528447
