@@ -14,6 +14,8 @@ public class Player : MonoBehaviour {
     [SerializeField] float moveSpeed = 10f;
     [SerializeField] float JumpForce = 5f;
     [SerializeField] Vector2 mortalHit = new Vector2(10f,8f);
+    [SerializeField] float DieSlowMotionFactor = 0.4f;
+
     // Use this for initialization
     void Start ()
     {
@@ -104,6 +106,7 @@ public class Player : MonoBehaviour {
 
     IEnumerator ErasePlayer()
     {
+        Time.timeScale = DieSlowMotionFactor;
         yield return new WaitForSeconds(2.5f);
         Destroy(gameObject);
     }
