@@ -100,15 +100,17 @@ public class Player : MonoBehaviour {
             isAlive = false;
             myAnimator.SetTrigger("Dying");
             myRigidBody.velocity = mortalHit;
-            StartCoroutine(ErasePlayer());
+            StartCoroutine(ErasePlayerandLoad());
         }
     }
 
-    IEnumerator ErasePlayer()
+    IEnumerator ErasePlayerandLoad()
     {
         Time.timeScale = DieSlowMotionFactor;
         yield return new WaitForSeconds(2.5f);
         Destroy(gameObject);
+        Time.timeScale = 1f;
+        FindObjectOfType<GameSession>().ProcessPlayerDeath();
     }
 
     private void FlipSprite()
