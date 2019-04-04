@@ -39,7 +39,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1623679755709542}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.116, y: -2.67, z: 0}
+  m_LocalPosition: {x: -3.06, y: -2.67, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -81,7 +81,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.1366668, y: 1.8066666}
+    oldSize: {x: 1.9424243, y: 1.6424242}
     newSize: {x: 6.41, y: 5.42}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -102,8 +102,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.118386626, y: 0.032276988}
-  m_Size: {x: 1.0627086, y: 1.5694578}
+  m_Offset: {x: -0.118386626, y: -0.094386816}
+  m_Size: {x: 1.0627086, y: 1.3161302}
   m_Direction: 0
 --- !u!95 &95757201933022464
 Animator:
@@ -136,7 +136,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 200
   JumpForce: 6.4
-  mortalHit: {x: 0, y: 10}
+  mortalHit: {x: 0, y: 4}
 --- !u!212 &212702000112294168
 SpriteRenderer:
   m_ObjectHideFlags: 1

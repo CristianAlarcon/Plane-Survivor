@@ -14,6 +14,8 @@ public class Player : MonoBehaviour {
     [SerializeField] float moveSpeed = 10f;
     [SerializeField] float JumpForce = 5f;
     [SerializeField] Vector2 mortalHit = new Vector2(10f,8f);
+    [SerializeField] float DieSlowMotionFactor = 0.4f;
+
     // Use this for initialization
     void Start ()
     {
@@ -98,14 +100,17 @@ public class Player : MonoBehaviour {
             isAlive = false;
             myAnimator.SetTrigger("Dying");
             myRigidBody.velocity = mortalHit;
-            StartCoroutine(ErasePlayer());
+            StartCoroutine(ErasePlayerandLoad());
         }
     }
 
-    IEnumerator ErasePlayer()
+    IEnumerator ErasePlayerandLoad()
     {
+        Time.timeScale = DieSlowMotionFactor;
         yield return new WaitForSeconds(2.5f);
         Destroy(gameObject);
+        Time.timeScale = 1f;
+        FindObjectOfType<GameSession>().ProcessPlayerDeath();
     }
 
     private void FlipSprite()
