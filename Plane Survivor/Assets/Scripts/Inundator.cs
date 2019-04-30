@@ -7,22 +7,24 @@ public class Inundator : MonoBehaviour
 
     [SerializeField]
     float floodingSpeed = 0.01f;
-    CompositeCollider2D Lava;
     Vector2 initialPosition;
+    PauseMenu pauseScript;
 
     void Start()
     {
-        Lava = GetComponent<CompositeCollider2D>();
         initialPosition = gameObject.transform.position;
-
+        pauseScript = GameObject.FindGameObjectWithTag("PauseObjects").GetComponent<PauseMenu>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector2 newPos = gameObject.transform.position;
-        newPos.y += floodingSpeed;
-        gameObject.transform.position = newPos;
+        if (!pauseScript.isPaused()) 
+        {
+            Vector2 newPos = gameObject.transform.position;
+            newPos.y += floodingSpeed;
+            gameObject.transform.position = newPos;
+        }
     }
 
     public void DoubleSpeed()
@@ -34,6 +36,7 @@ public class Inundator : MonoBehaviour
     {
         floodingSpeed /= 1.7f;
     }
+
 
     public void RestartPosition()
     {

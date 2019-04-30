@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Fire
   - ground
+  - Pause
+  - PauseObjects
+  - enemy
   layers:
   - Default
   - TransparentFX
@@ -25,8 +28,8 @@ TagManager:
   - Background2
   - Background3
   - Interactive
-  - 
-  - 
+  - Frontground
+  - Bullet
   - 
   - 
   - 
