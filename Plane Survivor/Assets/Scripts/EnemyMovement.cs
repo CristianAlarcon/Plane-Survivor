@@ -6,8 +6,8 @@ public class EnemyMovement : MonoBehaviour
 {
     protected bool isAlive= true;
     Animator myAnimator;
-    [SerializeField]
-    float moveSpeed = 1f;
+    [SerializeField] AudioClip hitSFX;
+    [SerializeField] float moveSpeed = 1f;
     Rigidbody2D myRigidBody;
     BoxCollider2D myFeet;
     CapsuleCollider2D myCollider;
@@ -58,7 +58,7 @@ public class EnemyMovement : MonoBehaviour
     {
         //myAnimator.SetTrigger("Death");
         isNotAlive();
-        
+        AudioSource.PlayClipAtPoint(hitSFX, Camera.main.transform.position);
         StartCoroutine(ErasePlayerandLoad());
     }
 

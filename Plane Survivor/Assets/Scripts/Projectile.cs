@@ -41,7 +41,6 @@ public class Projectile : MonoBehaviour
         if (enemyMovement)
         {
             Destroy(gameObject);
-            Debug.Log(otherCollider.gameObject);
             enemyMovement.die();
         }
         //else Debug.Log(otherCollider.gameObject);

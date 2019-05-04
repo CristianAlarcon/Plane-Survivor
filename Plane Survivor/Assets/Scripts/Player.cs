@@ -7,7 +7,11 @@ using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour {
 
     Rigidbody2D myRigidBody;
+    bool inmortal = false;
     Animator myAnimator;
+    [SerializeField] AudioClip shootSFX;
+    [SerializeField] AudioClip hitSFX;
+    [SerializeField] AudioClip dieSFX;
     [SerializeField] GameObject projectile;
     bool CanShoot = true;
     bool canBeHit = true;
@@ -108,6 +112,7 @@ public class Player : MonoBehaviour {
 
     IEnumerator HitTime()
     {
+        AudioSource.PlayClipAtPoint(hitSFX, Camera.main.transform.position);
         myAnimator.SetTrigger("Hit");
         myRigidBody.velocity = mortalHit*2;
         for (var number = 0; number < 15; number++)
@@ -123,13 +128,26 @@ public class Player : MonoBehaviour {
 
     private void Die()
     {
-        if (myBodyCollider.IsTouchingLayers(LayerMask.GetMask("Foreground")) || timeToDie)
+        if (!isInmortal())
         {
-            isAlive = false;
-            myAnimator.SetTrigger("Dying");
-            myRigidBody.velocity = mortalHit;
-            StartCoroutine(ErasePlayerandLoad());
+            if (myBodyCollider.IsTouchingLayers(LayerMask.GetMask("Foreground")))
+            {
+                AudioSource.PlayClipAtPoint(dieSFX, Camera.main.transform.position);
+                isAlive = false;
+                myAnimator.SetTrigger("Dying");
+                myRigidBody.velocity = mortalHit;
+                //Destroy(myBodyCollider);
+                StartCoroutine(ErasePlayerandLoad());
+            }
+            else if (timeToDie)
+            {
+                isAlive = false;
+                myAnimator.SetTrigger("Dying");
+                myRigidBody.velocity = mortalHit;
+                StartCoroutine(ErasePlayerandLoad());
+            }
         }
+        
     }
 
     IEnumerator ErasePlayerandLoad()
@@ -173,6 +191,7 @@ public class Player : MonoBehaviour {
             if (myFeet.IsTouchingLayers(LayerMask.GetMask("Ground")))
             {
                 myAnimator.SetBool("Shoot", true);
+                AudioSource.PlayClipAtPoint(shootSFX, Camera.main.transform.position);
                 GameObject newProjectile = Instantiate(projectile, transform.position, transform.rotation) as GameObject;
                 StartCoroutine(NotmovingInShoot());
                 StartCoroutine(DelayNextShoot());
@@ -189,4 +208,18 @@ public class Player : MonoBehaviour {
         return facingRight;
     }
 
+    public bool isInmortal()
+    {
+        return inmortal;
+    }
+
+    public void becomeInmortal()
+    {
+        inmortal = true;
+    }
+
+    public void becomeMortal()
+    {
+        inmortal = false;
+    }
 }

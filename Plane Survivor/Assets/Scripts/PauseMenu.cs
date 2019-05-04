@@ -5,11 +5,9 @@ using UnityEngine;
 public class PauseMenu : MonoBehaviour {
 
     GameObject[] pauseObjects;
-    bool gamePaused;
 
 	// Use this for initialization
 	void Start () {
-        gamePaused = false;
         Time.timeScale = 1;
         pauseObjects = GameObject.FindGameObjectsWithTag("Pause");
         hideMenu();
@@ -23,7 +21,6 @@ public class PauseMenu : MonoBehaviour {
             {
                 Time.timeScale = 0;
                 enableMenu();
-                gamePaused = true;
             }
             else if (Time.timeScale == 0)
             {
@@ -48,14 +45,10 @@ public class PauseMenu : MonoBehaviour {
         }
     }
 
-    public bool isPaused()
-    {
-        return gamePaused;
-    }
+
      public void continueGame()
     {
         Time.timeScale = 1;
         hideMenu();
-        gamePaused = false;
     }
 }

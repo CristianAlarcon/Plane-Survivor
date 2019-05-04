@@ -9,6 +9,9 @@ TagManager:
   - Pause
   - PauseObjects
   - enemy
+  - empty_pipes
+  - full_pipes
+  - smoke
   layers:
   - Default
   - TransparentFX
@@ -30,9 +33,9 @@ TagManager:
   - Interactive
   - Frontground
   - Bullet
-  - 
-  - 
-  - 
+  - empty_pipes
+  - full_pipes
+  - smoke
   - 
   - 
   - 

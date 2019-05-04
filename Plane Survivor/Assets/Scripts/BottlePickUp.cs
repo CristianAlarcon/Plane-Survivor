@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BottlePickUp : MonoBehaviour {
 
-    //[SerializeField] AudioClip pickUpSFX;
+    [SerializeField] AudioClip pickUpSFX;
     GameSession session;
 
 
@@ -14,7 +14,7 @@ public class BottlePickUp : MonoBehaviour {
         if (player)
         {
             FindObjectOfType<GameSession>().IncreaseNumBottles();
-            //AudioSource.PlayClipAtPoint(pickUpSFX, Camera.main.transform.position);
+            AudioSource.PlayClipAtPoint(pickUpSFX, Camera.main.transform.position);
             Destroy(gameObject);
         }
 
