@@ -12,6 +12,7 @@ public class Player : MonoBehaviour {
     [SerializeField] AudioClip shootSFX;
     [SerializeField] AudioClip hitSFX;
     [SerializeField] AudioClip dieSFX;
+    [SerializeField] AudioClip screamSFX;
     [SerializeField] GameObject projectile;
     bool CanShoot = true;
     bool canBeHit = true;
@@ -97,6 +98,7 @@ public class Player : MonoBehaviour {
         if (myBodyCollider.IsTouchingLayers(LayerMask.GetMask("Enemy", "Hazards")) && canBeHit)
         {
             game.takeHit();
+            AudioSource.PlayClipAtPoint(hitSFX, Camera.main.transform.position);
             if (game.getHealth() <= 0)
             {
                 Debug.Log("Dead");
@@ -112,7 +114,7 @@ public class Player : MonoBehaviour {
 
     IEnumerator HitTime()
     {
-        AudioSource.PlayClipAtPoint(hitSFX, Camera.main.transform.position);
+        
         myAnimator.SetTrigger("Hit");
         myRigidBody.velocity = mortalHit*2;
         for (var number = 0; number < 15; number++)
@@ -130,8 +132,10 @@ public class Player : MonoBehaviour {
     {
         if (!isInmortal())
         {
+            
             if (myBodyCollider.IsTouchingLayers(LayerMask.GetMask("Foreground")))
             {
+                AudioSource.PlayClipAtPoint(screamSFX, Camera.main.transform.position);
                 AudioSource.PlayClipAtPoint(dieSFX, Camera.main.transform.position);
                 isAlive = false;
                 myAnimator.SetTrigger("Dying");
@@ -141,6 +145,7 @@ public class Player : MonoBehaviour {
             }
             else if (timeToDie)
             {
+                AudioSource.PlayClipAtPoint(screamSFX, Camera.main.transform.position);
                 isAlive = false;
                 myAnimator.SetTrigger("Dying");
                 myRigidBody.velocity = mortalHit;
