@@ -74,6 +74,10 @@ public class GameSession : MonoBehaviour {
         {
             TextBottles.SetActive(false);
         }
+        if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("Level1"))
+        {
+            upperObjects.SetActive(true);
+        }
     }
     // Update is called once per frame
 
@@ -196,7 +200,7 @@ public class GameSession : MonoBehaviour {
 
     IEnumerator disableMessage(GameObject name)
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(3f);
         name.SetActive(false);
     }
 }
