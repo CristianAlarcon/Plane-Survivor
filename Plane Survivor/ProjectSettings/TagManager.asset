@@ -6,6 +6,12 @@ TagManager:
   tags:
   - Fire
   - ground
+  - Pause
+  - PauseObjects
+  - enemy
+  - empty_pipes
+  - full_pipes
+  - smoke
   layers:
   - Default
   - TransparentFX
@@ -25,11 +31,11 @@ TagManager:
   - Background2
   - Background3
   - Interactive
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Frontground
+  - Bullet
+  - empty_pipes
+  - full_pipes
+  - smoke
   - 
   - 
   - 

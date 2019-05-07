@@ -7,17 +7,25 @@ public class Menu : MonoBehaviour {
 
     public void StartFirstLevel()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Level1");
     }
 
     public void LoadMainMenu()
     {
-        SceneManager.LoadScene(0);
+        if (GameObject.Find("GameSession") != null)
+        {
+            Destroy(GameObject.Find("GameSession"));
+        }
+        SceneManager.LoadScene("Start Menu");
     }
 
     public void QuitGame()
     {
         Application.Quit();
+    }
+    public void LoadOptions()
+    {
+        SceneManager.LoadScene("Options Menu");
     }
 
 }

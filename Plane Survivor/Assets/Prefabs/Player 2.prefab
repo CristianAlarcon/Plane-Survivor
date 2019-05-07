@@ -39,7 +39,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1623679755709542}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.06, y: -2.67, z: 0}
+  m_LocalPosition: {x: -3.12, y: -2.64, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -59,7 +59,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 1.5
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -134,9 +134,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a01a3177e8242a43aab8dd5cf6ca8d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  shootSFX: {fileID: 8300000, guid: f756b87b7aefc89408af0cf3db930cc8, type: 3}
+  hitSFX: {fileID: 8300000, guid: 4bb6cc649608fdb4a8b62b2292e6b87b, type: 3}
+  dieSFX: {fileID: 8300000, guid: 73ebfb41cfe19ef46a20c30af76689a3, type: 3}
+  screamSFX: {fileID: 8300000, guid: 82f4de3fc2f3040409b8efd063063dff, type: 3}
+  projectile: {fileID: 1677005037109486, guid: a0b530c228fe1e846ba73087715ce714, type: 2}
   moveSpeed: 200
-  JumpForce: 6.4
+  JumpForce: 8
   mortalHit: {x: 0, y: 4}
+  DieSlowMotionFactor: 0.5
 --- !u!212 &212702000112294168
 SpriteRenderer:
   m_ObjectHideFlags: 1
