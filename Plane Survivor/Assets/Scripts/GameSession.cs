@@ -74,10 +74,6 @@ public class GameSession : MonoBehaviour {
         {
             TextBottles.SetActive(false);
         }
-        if (SceneManager.GetActiveScene() == SceneManager.GetSceneByName("Level1"))
-        {
-            upperObjects.SetActive(true);
-        }
     }
     // Update is called once per frame
 

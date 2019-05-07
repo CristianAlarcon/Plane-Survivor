@@ -12,6 +12,10 @@ public class Menu : MonoBehaviour {
 
     public void LoadMainMenu()
     {
+        if (GameObject.Find("GameSession") != null)
+        {
+            Destroy(GameObject.Find("GameSession"));
+        }
         SceneManager.LoadScene("Start Menu");
     }
 
