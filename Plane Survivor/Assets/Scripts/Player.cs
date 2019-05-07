@@ -13,6 +13,7 @@ public class Player : MonoBehaviour {
     [SerializeField] AudioClip hitSFX;
     [SerializeField] AudioClip dieSFX;
     [SerializeField] AudioClip screamSFX;
+    [SerializeField] AudioClip noBulletsFX;
     [SerializeField] GameObject projectile;
     bool CanShoot = true;
     bool canBeHit = true;
@@ -29,6 +30,7 @@ public class Player : MonoBehaviour {
     [SerializeField] float DieSlowMotionFactor = 0.5f;
 
     // Use this for initialization
+
     void Start ()
     {
         var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
@@ -53,7 +55,7 @@ public class Player : MonoBehaviour {
         Hit();
         Die();
         Shoot();
-	}
+    }
 
     private void Run()
     {
@@ -190,17 +192,24 @@ public class Player : MonoBehaviour {
 
     private void Shoot()
     {
-
-        if (Input.GetButtonDown("Fire1") && CanShoot)
+        if (Input.GetButtonDown("Fire1") && CanShoot )
         {
-            if (myFeet.IsTouchingLayers(LayerMask.GetMask("Ground")))
+            if (game.canShoot())
             {
-                myAnimator.SetBool("Shoot", true);
-                AudioSource.PlayClipAtPoint(shootSFX, Camera.main.transform.position);
-                GameObject newProjectile = Instantiate(projectile, transform.position, transform.rotation) as GameObject;
-                StartCoroutine(NotmovingInShoot());
-                StartCoroutine(DelayNextShoot());
+                if (myFeet.IsTouchingLayers(LayerMask.GetMask("Ground")))
+                {
+                    myAnimator.SetBool("Shoot", true);
+                    game.decreaseBullets();
+                    AudioSource.PlayClipAtPoint(shootSFX, Camera.main.transform.position);
+                    GameObject newProjectile = Instantiate(projectile, transform.position, transform.rotation) as GameObject;
+                    StartCoroutine(NotmovingInShoot());
+                    StartCoroutine(DelayNextShoot());
+                }
+            } else
+            {
+                AudioSource.PlayClipAtPoint(noBulletsFX, Camera.main.transform.position);
             }
+            
         }
         else
         {

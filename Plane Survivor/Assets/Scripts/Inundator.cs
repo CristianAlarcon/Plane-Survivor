@@ -9,9 +9,19 @@ public class Inundator : MonoBehaviour
     float floodingSpeed = 0.01f;
     Vector2 initialPosition;
     bool descending;
+    PlayerPrefs playerPrefs;
 
     void Start()
     {
+        playerPrefs = GameObject.Find("PlayerPrefs").GetComponent<PlayerPrefs>();
+        if (playerPrefs.getDifficulty() == 1f)
+        {
+            floodingSpeed = 0.009f;
+        }
+        else if (playerPrefs.getDifficulty() == 0f)
+        {
+            floodingSpeed = 0.0085f;
+        }
         initialPosition = gameObject.transform.position;
         descending = false;
     }

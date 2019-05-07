@@ -7,7 +7,6 @@ public class BottlePickUp : MonoBehaviour {
     [SerializeField] AudioClip pickUpSFX;
     GameSession session;
 
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         var player = collision.gameObject.GetComponent<Player>();
