@@ -11,10 +11,10 @@ public class LevelExit : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        StartCoroutine(LoadNextLevel());
+        StartCoroutine(LoadSuccessLevel());
     }
 
-    IEnumerator LoadNextLevel()
+    IEnumerator LoadSuccessLevel()
     {
         player = GameObject.Find("Player").GetComponent<Player>();
         gameSession = GameObject.Find("GameSession").GetComponent<GameSession>();
@@ -22,8 +22,7 @@ public class LevelExit : MonoBehaviour {
         Time.timeScale = LevelExitSlowMotionFactor;
         yield return new WaitForSecondsRealtime(LevelLoadDelay);
         Time.timeScale = 1f;
-        var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene(currentSceneIndex + 1);
+        SceneManager.LoadScene("Success");
         gameSession.Victory();
     }
 }

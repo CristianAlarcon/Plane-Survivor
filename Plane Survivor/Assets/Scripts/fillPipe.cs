@@ -11,12 +11,14 @@ public class fillPipe : MonoBehaviour {
     [SerializeField] ParticleSystem WaterFlow;
     [SerializeField] AudioClip waterSFX;
     Inundator inundator;
+    BoxCollider2D myBox;
     GameSession gameSession;
     GameObject pipe_big;
     GameObject pipes_full;
 
     void Start()
     {
+        myBox = GetComponent<BoxCollider2D>();
         inundator = GameObject.Find("Lava").GetComponent<Inundator>();
         gameSession = GameObject.Find("GameSession").GetComponent<GameSession>();
         pipe_big = GameObject.Find("pipe_big");
@@ -61,6 +63,7 @@ public class fillPipe : MonoBehaviour {
         smoke.Stop();
         yield return new WaitForSeconds(1f);
         WaterFlow.Stop();
+        Destroy(myBox);
     }
    
 }
