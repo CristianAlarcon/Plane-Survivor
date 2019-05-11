@@ -10,6 +10,7 @@ public class GameSession : MonoBehaviour {
     [SerializeField] AudioClip gameOverSFX;
     [SerializeField] float playerLives = 3;
     int numBottles = 0;
+    bool checkpoint = false;
     [SerializeField] float bullets = 5;
     private float health;
     [SerializeField] Slider HealthBar;
@@ -24,7 +25,6 @@ public class GameSession : MonoBehaviour {
     [SerializeField] Text bulletsText;
     [SerializeField] GameObject GameOverObject;
     GameObject persistent;
-    Scene currentScene;
     PlayerPrefs playerPrefs;
 
 
@@ -47,8 +47,6 @@ public class GameSession : MonoBehaviour {
         playerLives = playerLives - playerPrefs.getDifficulty();
         health = numberOfHits;
         bullets = bullets - playerPrefs.getDifficulty();
-        Debug.Log("Number of bullets: " + bullets);
-        Debug.Log("Difficulty: " + playerPrefs.getDifficulty());
         livesText.text = (playerLives).ToString();
         bottlesText.text = numBottles.ToString();
         bottlesText2.text = numBottles.ToString();
@@ -93,8 +91,14 @@ public class GameSession : MonoBehaviour {
     private void TakeLife()
     {
         playerLives--;
-        var currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene(currentSceneIndex);
+        if (!checkpoint)
+        {
+            SceneManager.LoadScene("Level1");
+        }
+        else
+        {
+            SceneManager.LoadScene("Level1 - Checkpoint");
+        }
         resetHealth();
         HealthBar.value = getHealth();
         livesText.text = (playerLives-1).ToString();
@@ -196,7 +200,12 @@ public class GameSession : MonoBehaviour {
 
     IEnumerator disableMessage(GameObject name)
     {
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(2.5f);
         name.SetActive(false);
+    }
+
+    public void Checkpoint()
+    {
+        checkpoint = true;
     }
 }

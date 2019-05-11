@@ -6,7 +6,7 @@ public class Inundator : MonoBehaviour
 {
 
     [SerializeField]
-    float floodingSpeed = 0.01f;
+    float floodingSpeed = 0.09f;
     Vector2 initialPosition;
     bool descending;
     PlayerPrefs playerPrefs;
@@ -16,11 +16,11 @@ public class Inundator : MonoBehaviour
         playerPrefs = GameObject.Find("PlayerPrefs").GetComponent<PlayerPrefs>();
         if (playerPrefs.getDifficulty() == 1f)
         {
-            floodingSpeed = 0.009f;
+            floodingSpeed = 0.0085f;
         }
         else if (playerPrefs.getDifficulty() == 0f)
         {
-            floodingSpeed = 0.0085f;
+            floodingSpeed = 0.008f;
         }
         initialPosition = gameObject.transform.position;
         descending = false;
