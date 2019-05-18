@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CheckPoint : MonoBehaviour
 {
+    [SerializeField] AudioClip checkpointSFX;
     Animator myAnimator;
     GameSession gameSession;
 
@@ -17,6 +18,7 @@ public class CheckPoint : MonoBehaviour
     {
         if (collision.GetComponent<Collider2D>().gameObject.layer == LayerMask.NameToLayer("Player"))
         {
+            AudioSource.PlayClipAtPoint(checkpointSFX, Camera.main.transform.position);
             gameSession.Checkpoint();
             myAnimator.SetTrigger("Shine");
             StartCoroutine(destroy());
