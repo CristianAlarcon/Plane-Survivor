@@ -28,7 +28,7 @@ public class CheckPoint : MonoBehaviour
 
     IEnumerator destroy()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(1.5f);
         Destroy (gameObject);
     }
 }

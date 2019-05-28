@@ -38,13 +38,17 @@ public class Projectile : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D otherCollider)
     {
         var enemyMovement = otherCollider.GetComponent<EnemyMovement>();
+        var batMovement = otherCollider.GetComponent<Bat_Movement>();
         if (enemyMovement)
         {
             Destroy(gameObject);
             enemyMovement.die();
         }
-        //else Debug.Log(otherCollider.gameObject);
-
+        if (batMovement)
+        {
+            Destroy(gameObject);
+            batMovement.die();    
+        }
     }
 
 }

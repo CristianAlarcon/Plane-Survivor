@@ -103,7 +103,6 @@ public class Player : MonoBehaviour {
             AudioSource.PlayClipAtPoint(hitSFX, Camera.main.transform.position);
             if (game.getHealth() <= 0)
             {
-                Debug.Log("Dead");
                 timeToDie = true;
             }
             else
@@ -142,7 +141,6 @@ public class Player : MonoBehaviour {
                 isAlive = false;
                 myAnimator.SetTrigger("Dying");
                 myRigidBody.velocity = mortalHit;
-                //Destroy(myBodyCollider);
                 StartCoroutine(ErasePlayerandLoad());
             }
             else if (timeToDie)
@@ -169,7 +167,7 @@ public class Player : MonoBehaviour {
     IEnumerator NotmovingInShoot()
     {
         myRigidBody.constraints = RigidbodyConstraints2D.FreezePositionX;
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.25f);
         myRigidBody.constraints = RigidbodyConstraints2D.None;
         transform.rotation = new Quaternion(0.0f,0.0f, 0.0f, 0.0f); 
         myRigidBody.constraints = RigidbodyConstraints2D.FreezeRotation;

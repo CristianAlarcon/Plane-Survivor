@@ -26,6 +26,7 @@ public class GameSession : MonoBehaviour {
     [SerializeField] GameObject GameOverObject;
     GameObject persistent;
     PlayerPrefs playerPrefs;
+    PauseMenu pauseMenu;
 
 
     private void Awake()
@@ -43,6 +44,7 @@ public class GameSession : MonoBehaviour {
     void Start () {
         audioSource = GetComponent<AudioSource>();
         playerPrefs = GameObject.Find("PlayerPrefs").GetComponent<PlayerPrefs>();
+        pauseMenu = GameObject.Find("PauseObjects").GetComponent<PauseMenu>();
         audioSource.volume = playerPrefs.getVolume();
         playerLives = playerLives - playerPrefs.getDifficulty();
         health = numberOfHits;
@@ -107,6 +109,7 @@ public class GameSession : MonoBehaviour {
 
     public void GameOverSession()
     {
+        pauseMenu.NotPausable();
         Time.timeScale = 0;
         audioSource.Stop();
         AudioSource.PlayClipAtPoint(gameOverSFX, Camera.main.transform.position, playerPrefs.getVolume()); 

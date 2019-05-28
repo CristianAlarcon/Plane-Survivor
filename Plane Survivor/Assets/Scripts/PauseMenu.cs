@@ -5,26 +5,31 @@ using UnityEngine;
 public class PauseMenu : MonoBehaviour {
 
     GameObject[] pauseObjects;
+    bool pausable;
 
 	// Use this for initialization
 	void Start () {
         Time.timeScale = 1;
         pauseObjects = GameObject.FindGameObjectsWithTag("Pause");
         hideMenu();
+        pausable = true;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown(KeyCode.P))
+        if (pausable)
         {
-            if (Time.timeScale == 1)
+            if (Input.GetKeyDown(KeyCode.P))
             {
-                Time.timeScale = 0;
-                enableMenu();
-            }
-            else if (Time.timeScale == 0)
-            {
-                continueGame();
+                if (Time.timeScale == 1)
+                {
+                    Time.timeScale = 0;
+                    enableMenu();
+                }
+                else if (Time.timeScale == 0)
+                {
+                    continueGame();
+                }
             }
         }
 	}
@@ -50,5 +55,10 @@ public class PauseMenu : MonoBehaviour {
     {
         Time.timeScale = 1;
         hideMenu();
+    }
+
+    public void NotPausable()
+    {
+        pausable = false;
     }
 }
