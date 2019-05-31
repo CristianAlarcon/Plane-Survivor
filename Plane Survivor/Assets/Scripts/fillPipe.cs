@@ -15,6 +15,7 @@ public class fillPipe : MonoBehaviour {
     GameSession gameSession;
     GameObject pipe_big;
     GameObject pipes_full;
+    GameObject text;
 
     void Start()
     {
@@ -23,6 +24,7 @@ public class fillPipe : MonoBehaviour {
         gameSession = GameObject.Find("GameSession").GetComponent<GameSession>();
         pipe_big = GameObject.Find("pipe_big");
         pipes_full = GameObject.Find("pipes_Full");
+        text = GameObject.Find("text");
         pipes_full.SetActive(false);
         WaterFlow.Stop();
         smoke.Stop();
@@ -39,6 +41,8 @@ public class fillPipe : MonoBehaviour {
             }
             else
             {
+                Destroy(myBox);
+                text.SetActive(false);
                 WaterFirst.Stop();
                 smoke2.Play();
                 smoke.Play();
@@ -51,6 +55,7 @@ public class fillPipe : MonoBehaviour {
     IEnumerator enableSmoke()
     {
         yield return new WaitForSeconds(0.5f);
+        gameSession.decrease5NumBottles();
         pipes_full.SetActive(true);
         AudioSource.PlayClipAtPoint(waterSFX, Camera.main.transform.position);
         WaterFlow.Play();
@@ -63,7 +68,6 @@ public class fillPipe : MonoBehaviour {
         smoke.Stop();
         yield return new WaitForSeconds(1f);
         WaterFlow.Stop();
-        Destroy(myBox);
     }
    
 }

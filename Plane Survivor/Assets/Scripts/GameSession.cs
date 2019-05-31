@@ -79,7 +79,7 @@ public class GameSession : MonoBehaviour {
 
     public void ProcessPlayerDeath()
     {
-        if (playerLives > 1)
+        if (playerLives > 0)
         {
             TakeLife();
         }
@@ -96,14 +96,18 @@ public class GameSession : MonoBehaviour {
         if (!checkpoint)
         {
             SceneManager.LoadScene("Level1");
+            audioSource.Stop();
+            audioSource.Play();
         }
         else
         {
             SceneManager.LoadScene("Level1 - Checkpoint");
+            audioSource.Stop();
+            audioSource.Play();
         }
         resetHealth();
         HealthBar.value = getHealth();
-        livesText.text = (playerLives-1).ToString();
+        livesText.text = (playerLives).ToString();
         Time.timeScale = 1;
     }
 
@@ -139,6 +143,13 @@ public class GameSession : MonoBehaviour {
     public void IncreaseNumBottles()
     {
         numBottles++;
+        bottlesText.text = numBottles.ToString();
+        bottlesText2.text = numBottles.ToString();
+    }
+
+    public void decrease5NumBottles()
+    {
+        numBottles = numBottles - 5; ;
         bottlesText.text = numBottles.ToString();
         bottlesText2.text = numBottles.ToString();
     }
@@ -194,6 +205,7 @@ public class GameSession : MonoBehaviour {
             return false;
         }
     }
+
 
     public void showWarning()
     {
