@@ -26,6 +26,7 @@ public class GameSession : MonoBehaviour {
     [SerializeField] GameObject GameOverObject;
     GameObject persistent;
     PlayerPrefs playerPrefs;
+    PauseMenu pauseMenu;
 
 
     private void Awake()
@@ -43,6 +44,7 @@ public class GameSession : MonoBehaviour {
     void Start () {
         audioSource = GetComponent<AudioSource>();
         playerPrefs = GameObject.Find("PlayerPrefs").GetComponent<PlayerPrefs>();
+        pauseMenu = GameObject.Find("PauseObjects").GetComponent<PauseMenu>();
         audioSource.volume = playerPrefs.getVolume();
         playerLives = playerLives - playerPrefs.getDifficulty();
         health = numberOfHits;
@@ -77,7 +79,7 @@ public class GameSession : MonoBehaviour {
 
     public void ProcessPlayerDeath()
     {
-        if (playerLives > 1)
+        if (playerLives > 0)
         {
             TakeLife();
         }
@@ -94,19 +96,24 @@ public class GameSession : MonoBehaviour {
         if (!checkpoint)
         {
             SceneManager.LoadScene("Level1");
+            audioSource.Stop();
+            audioSource.Play();
         }
         else
         {
             SceneManager.LoadScene("Level1 - Checkpoint");
+            audioSource.Stop();
+            audioSource.Play();
         }
         resetHealth();
         HealthBar.value = getHealth();
-        livesText.text = (playerLives-1).ToString();
+        livesText.text = (playerLives).ToString();
         Time.timeScale = 1;
     }
 
     public void GameOverSession()
     {
+        pauseMenu.NotPausable();
         Time.timeScale = 0;
         audioSource.Stop();
         AudioSource.PlayClipAtPoint(gameOverSFX, Camera.main.transform.position, playerPrefs.getVolume()); 
@@ -136,6 +143,13 @@ public class GameSession : MonoBehaviour {
     public void IncreaseNumBottles()
     {
         numBottles++;
+        bottlesText.text = numBottles.ToString();
+        bottlesText2.text = numBottles.ToString();
+    }
+
+    public void decrease5NumBottles()
+    {
+        numBottles = numBottles - 5; ;
         bottlesText.text = numBottles.ToString();
         bottlesText2.text = numBottles.ToString();
     }
@@ -191,6 +205,7 @@ public class GameSession : MonoBehaviour {
             return false;
         }
     }
+
 
     public void showWarning()
     {
